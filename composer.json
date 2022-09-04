@@ -1,0 +1,13 @@
+{
+    "require": {
+        "smarty/smarty": "^4.2"
+    },
+    "autoload":{
+        "psr-4":{
+            "app\\":"app"
+        },
+        "files":[
+            "app/helpers/constants.php"
+        ]
+    }
+}
